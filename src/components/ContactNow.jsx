@@ -8,7 +8,7 @@ import { AiOutlineFileText } from 'react-icons/ai';
 import resume from "../assests/Uzair-cv.pdf"
 
 
-const Contact = () => {
+const ContactNow = () => {
   return (
     <div className='border-b border-neutral-900 pb-20'>
       <motion.h1
@@ -84,4 +84,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default ContactNow;

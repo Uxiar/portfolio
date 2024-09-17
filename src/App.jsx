@@ -7,7 +7,7 @@ import Technologies from './components/Technologies';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import StarsBackground from "./components/StarsBackground.jsx"
-import Contact from './components/contact.jsx';
+import ContactNow from './components/ContactNow.jsx';
 
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
           <Experience />
           <Projects />
           <PersonalProjects />
-          <Contact/>
+          <ContactNow/>
         </div>
       </div>
     </>
