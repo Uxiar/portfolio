@@ -89,7 +89,7 @@ export const PERSONALPROJECTS = [
   {
     title: "Weather Tracker",
     image: perosnalProject3,
-    link: "https://weather-app-sable-nu.vercel.app/",
+    link: "https://weather-app-fawn-three-32.vercel.app/",
     description:
       "A Weather Tracker App shows real-time weather details like temperature, humidity, and wind, with dynamic backgrounds and a responsive design..",
     technologies: ["HTML", "CSS", "Javascript", "React"],

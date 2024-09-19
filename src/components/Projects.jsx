@@ -23,7 +23,7 @@ const Projects = () => {
                          <a href={projects.link} target="_blank" rel='noopener noreferrer'>
                             <img src={projects.image}
                                 alt={projects.title}
-                                className='mb-4 rounded transition duration-300 ease-in-out transform hover:scale-110'
+                                className='mb-4 rounded-2xl transition duration-300 ease-in-out transform hover:scale-110'
                             />      
                           </a>
                         </motion.div>
@@ -37,7 +37,7 @@ const Projects = () => {
                             </h6>
                             <p className='mb-4 text-neutral-400'>{projects.description}</p>
                             {projects.technologies.map((tech, techIndex) => (
-                                <span key={techIndex} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'
+                                <span key={techIndex} className='mr-2 mt-4 rounded bg-purple-900 px-2 py-1 text-sm font-medium text-neutral-100'
                                 >
                                     {tech}
                                 </span>

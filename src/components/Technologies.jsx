@@ -160,7 +160,7 @@ const Technologies = () => {
           <div className='rounded-2xl border-4 border-neutral-800 p-4'>
             < MdAccessibility className='text-6xl text-green-500' />
           </div>
-          <p className='text-center mt-3'>NEXT JS</p>
+          <p className='text-center mt-3'>ACCESSIBILTY</p>
         </motion.div>
 
         <motion.div
