@@ -5,7 +5,7 @@ import perosnalProject1 from "../assests/project-1.png";
 import perosnalProject2 from "../assests/project-2.png";
 import perosnalProject3 from "../assests/project-3.png";
 import perosnalProject4 from "../assests/project-4.png";
-
+import perosnalProject5 from "../assests/project-5.png";
 
 export const HERO_CONTENT = `I am a dedicated web developer with 6 months of hands-on experience in building responsive and dynamic web applications. My core skills include HTML, CSS, JavaScript, and React.js, allowing me to create visually appealing and interactive user interfaces. I am passionate about learning new technologies and refining my expertise to deliver high-quality web solutions.`;
 
@@ -19,7 +19,14 @@ export const EXPERIENCES = [
     role: " Web Developer",
     company: "MAK{byte}.",
     description: `With 6 months of hands-on web development experience, I have gained expertise in building responsive, dynamic applications using modern web technologies such as React, JavaScript, and CSS, with a focus on user-centric designs and optimized performance.`,
-    technologies: ["Javascript", "Tailwind",,"Bootstrap","React.js", "Next.Js"],
+    technologies: [
+      "Javascript",
+      "Tailwind",
+      ,
+      "Bootstrap",
+      "React.js",
+      "Next.Js",
+    ],
   },
   // {
   //   year: "2022 - 2023",
@@ -95,14 +102,23 @@ export const PERSONALPROJECTS = [
     description:
       "A Weather Tracker App shows real-time weather details like temperature, humidity, and wind, with dynamic backgrounds and a responsive design..",
     technologies: ["HTML", "CSS", "Javascript", "React"],
-  }, {
+  },
+  {
     title: "Next Buy",
     image: perosnalProject4,
     link: "https://e-commerce-roan-beta-81.vercel.app/",
     description:
       "E-Commerce Next buy, offers a sleek and modern shopping platform with a user-friendly interface. It features a dynamic product catalog, and responsive design for an optimal shopping experience across devices.",
     technologies: ["HTML", "Tailwind", "Javascript", "React"],
-  }
+  },
+  {
+    title: "Crypto Dashboard",
+    image: perosnalProject5,
+    link: "https://crypto-dashboard-mauve.vercel.app/",
+    description:
+      "Crypto Dashboard is a sleek and intuitive platform for tracking real-time cryptocurrency prices, trends, and market data. Stay updated with live charts and insights for better investment decisions.",
+    technologies: ["HTML", "Javascript", "React", "Tailwind CSS"],
+  },
 ];
 
 export const CONTACT = {
