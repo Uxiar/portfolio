@@ -106,7 +106,7 @@ export const PERSONALPROJECTS = [
   {
     title: "Next Buy",
     image: perosnalProject4,
-    link: "https://e-commerce-roan-beta-81.vercel.app/",
+    link: "https://e-commerce-self-pi.vercel.app/",
     description:
       "E-Commerce Next buy, offers a sleek and modern shopping platform with a user-friendly interface. It features a dynamic product catalog, and responsive design for an optimal shopping experience across devices.",
     technologies: ["HTML", "Tailwind", "Javascript", "React"],
